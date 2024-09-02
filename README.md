@@ -1,16 +1,40 @@
-# weatherapp
+# WeatherApp
 
-A new Flutter project.
+A Flutter-based mobile application that provides real-time weather updates and forecasts for cities around the world. The app allows users to select and favorite cities, making it easy to stay informed about the weather conditions that matter most to them.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Real-time Weather Information**: Access up-to-date weather data, including temperature, conditions, and forecasts.
+- **City Selection**: Easily browse and select cities to monitor their weather.
+- **Favorites**: Mark cities as favorites and view them prominently at the top of your list.
+- **Hourly Forecasts**: Get detailed hourly weather forecasts for selected cities.
+- **7-Day Forecasts**: Plan ahead with a week-long weather outlook.
 
-A few resources to get you started if this is your first Flutter project:
+## How It Works
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **City Selection**: On the welcome screen, choose cities you want to monitor. Selected cities appear in a separate list with a clear divider.
+2. **Mark as Favorite**: Tap the heart icon next to a city to mark it as a favorite. Favorite cities are displayed at the top of your list.
+3. **View Forecasts**: Scroll through the list to see hourly and 7-day weather forecasts for your selected cities.
+4. **Navigate**: Use the app's intuitive navigation to switch between different weather views and get detailed information.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+- **Flutter & Dart**: The app is built using Flutter, leveraging Dart's power for smooth, cross-platform development.
+- **Weather API**: The app integrates with a reliable weather API to fetch real-time data.
+
+## Screenshots
+
+Here are some screenshots showcasing the different pages of the app:
+
+| Getting Started Page                    | Welcome Page                       |
+| --------------------------------------- | ---------------------------------- |
+| ![Getting Started](./Screenshots/getting%20started%20page.png) | ![Welcome Page](./Screenshots/welcome%20page.png) |
+
+| Home Page Example                       | Home Page Example 2                |
+| --------------------------------------- | ---------------------------------- |
+| ![Home Page Example](./Screenshots/home%20page%20example.png) | ![Home Page Example 2](./Screenshots/home%20page%20example%202.png) |
+
+| Details Page Example                    | Details Page Example 2             |
+| --------------------------------------- | ---------------------------------- |
+| ![Details Page Example](./Screenshots/details%20page%20example.png) | ![Details Page Example 2](./Screenshots/details%20page%20example%202.png) |
+
