@@ -294,10 +294,10 @@ class _DetailPageState extends State<DetailPage> {
                               borderRadius: const BorderRadius.all(Radius.circular(10)),
                               boxShadow: [
                                 BoxShadow(
-                                  color: myConstants.secondaryColor.withOpacity(.1),
-                                  spreadRadius: 5,
-                                  blurRadius: 20,
-                                  offset: const Offset(0, 3),
+                                  color: myConstants.secondaryColor,
+                                  spreadRadius: 1,
+                                  blurRadius: 10,
+                                  offset: const Offset(4, 4),
                                 ),
                               ],
                             ),
