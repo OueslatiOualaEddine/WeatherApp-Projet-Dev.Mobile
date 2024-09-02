@@ -24,17 +24,14 @@ A Flutter-based mobile application that provides real-time weather updates and f
 
 ## Screenshots
 
-Here are some screenshots showcasing the different pages of the app:
-
 | Getting Started Page                    | Welcome Page                       |
 | --------------------------------------- | ---------------------------------- |
-| ![Getting Started](./Screenshots/getting%20started%20page.png) | ![Welcome Page](./Screenshots/welcome%20page.png) |
+| <img src="./Screenshots/getting%20started%20page.png" width="300"/> | <img src="./Screenshots/welcome%20page.png" width="300"/> |
 
 | Home Page Example                       | Home Page Example 2                |
 | --------------------------------------- | ---------------------------------- |
-| ![Home Page Example](./Screenshots/home%20page%20example.png) | ![Home Page Example 2](./Screenshots/home%20page%20example%202.png) |
+| <img src="./Screenshots/home%20page%20example.png" width="300"/> | <img src="./Screenshots/home%20page%20example%202.png" width="300"/> |
 
 | Details Page Example                    | Details Page Example 2             |
 | --------------------------------------- | ---------------------------------- |
-| ![Details Page Example](./Screenshots/details%20page%20example.png) | ![Details Page Example 2](./Screenshots/details%20page%20example%202.png) |
-
+| <img src="./Screenshots/details%20page%20example.png" width="300"/> | <img src="./Screenshots/details%20page%20example%202.png" width="300"/> |
