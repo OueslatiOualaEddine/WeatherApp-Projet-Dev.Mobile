@@ -29,7 +29,7 @@ class City{
         isFavorite: false),
     City(
         isSelected: false,
-        city: 'Algiers',
+        city: 'Alger',
         country: 'Algeria',
         isDefault: false,
         isFavorite: false),

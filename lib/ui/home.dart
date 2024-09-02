@@ -29,6 +29,7 @@ class _HomeState extends State<Home> {
   var currentDate = 'Loading..';
   String location = 'Tunis'; // Our default city
 
+  dynamic consolidatedWeatherList;
   dynamic consolidatedWeekWeatherList;
 
   // Get the cities and selected cities data
@@ -58,7 +59,7 @@ class _HomeState extends State<Home> {
       pression = result['current']['pressure_mb'].round();
       imageUrl = 'assets/${weatherStateName.toLowerCase()}.png';
 
-      consolidatedWeekWeatherList = [result];
+      consolidatedWeatherList = [result];
     });
   }
 

@@ -14,8 +14,9 @@ class _WelcomeState extends State<Welcome> {
   @override
   Widget build(BuildContext context) {
     List<City> allCities = City.citiesList.where((city) => city.isDefault == false).toList();
-    List<City> favoriteCities = City.getFavoriteCities();
     List<City> nonFavoriteCities = allCities.where((city) => !city.isFavorite).toList();
+    List<City> favoriteCities = City.getFavoriteCities();
+    List<City> selectedCities = City.getSelectedCities();
 
     Constants myConstants = Constants();
     Size size = MediaQuery.of(context).size;
@@ -25,7 +26,8 @@ class _WelcomeState extends State<Welcome> {
         centerTitle: true,
         automaticallyImplyLeading: false,
         backgroundColor: myConstants.secondaryColor,
-        title: Text('${favoriteCities.length} City(ies) Selected'),
+        foregroundColor: Colors.white,
+        title: Text('${selectedCities.length} City(ies) Selected'),
       ),
       body: ListView(
         physics: const BouncingScrollPhysics(),

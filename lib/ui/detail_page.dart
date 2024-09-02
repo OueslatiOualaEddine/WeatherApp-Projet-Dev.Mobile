@@ -53,6 +53,7 @@ class _DetailPageState extends State<DetailPage> {
       appBar: AppBar(
         centerTitle: true,
         backgroundColor: myConstants.secondaryColor,
+        foregroundColor: Colors.white,
         elevation: 0.0,
         title: Text(
             widget.location,
@@ -288,7 +289,7 @@ class _DetailPageState extends State<DetailPage> {
                               bottom: 5,
                             ),
                             height: 80,
-                            width: size.width,
+                            width: MediaQuery.of(context).size.width,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: const BorderRadius.all(Radius.circular(10)),
